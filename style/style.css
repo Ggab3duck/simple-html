@@ -62,8 +62,127 @@ header .container{
     height: 100%;
     width: 100%;
 }
+/*MAIN CONTAINER*/
+main .container{
+    display: flex;
+}
+/*MAIN-TEXT*/
+main .container .main-text{
+    width: 40%;
+    padding: 10px 60px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
 
+/*MAIN-BANNER*/
+main .container .main-banner{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
 
 body{
-    background-color: rgb(236, 188, 188);
+    background-color: rgb(25, 0, 135);
+}
+.main-banner img{
+    width: 50%;
+}
+.main-text h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.main-text p{
+    font-size: 25px;
+    color: white;
+}
+.main-text button{
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    text-transform: uppercase   ;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.main-text span{
+    color: #93d8ef;
+}
+.btnVermelho{
+    background-color: red;
+    box-shadow: rgba(255, 0, 0, 0.411) 0px 14px 28px, rgba(255, 0, 0, 0.151) 0px 10px 10px;
+}
+.btnAzul{
+    background-color: rgb(67, 189, 229);
+    box-shadow: rgba(67, 189, 229, 0.479) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+/* cards */
+.card  {
+    
+    background-color: white;
+    width: 320px;
+    font-family: sans-serif ;
+    border-radius: 10px;
+    margin-left: 25px;
+    box-shadow: rgb(2, 100, 128) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-img{
+    background-image: url("../img/computador.jpg");
+    height: 150px;
+    width: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    border-radius: 10px;
+}
+.second{
+    background-image: url(../img/celular.jpg);
+}
+.third{
+    background-image: url(../img/foneG.jpg);
+    background-size: 50%;
+}
+.four{
+    background-image: url(../img/MouseG.jpg);
+    background-size: 70%;
+}
+.five{
+    background-image: url(../img/Monitor.jpg);
+    background-size: 70%;
+}
+.six{
+    background-image: url(../img/TecladoG.png);
+    background-size: 70%;
+}
+.card-text{
+    padding: 5px;
+}
+.card-text h2{
+    font-size: 27px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.card-text p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card-text a{
+    font-size: 20px;
+    color: rgb(10, 0, 150);
+    text-decoration: none;
+    font-weight: 800;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: baseline;
+    margin-top: 4%;
+    
+}
+.card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
 }
