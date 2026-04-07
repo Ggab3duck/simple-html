@@ -186,3 +186,33 @@ body{
     transform: translateY(-5px);
     transition: 0.3s;
 }
+/*qualiadades*/
+.qualidades{
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #ea8845;
+    margin-top: 4%;
+    
+}
+.qualidades .container{
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.qualidades .container div{
+    display: flex;
+    justify-content: center;
+
+}
+.qualidades .container div p{
+    font-size: 1.5rem;
+
+}
+.meuSpan{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+
+}
