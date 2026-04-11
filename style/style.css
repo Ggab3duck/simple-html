@@ -183,12 +183,13 @@ body{
     
 }
 .card:hover{
-    transform: translateY(-5px);
+    transform: translateY(-5px);    
     transition: 0.3s;
 }
 /*qualiadades*/
 .qualidades{
     width: 100%;
+    height: 100%;
     font-family: sans-serif;
     background-color: #ea8845;
     margin-top: 4%;
@@ -215,4 +216,52 @@ body{
     font-weight: 700;
     color: white;
 
+}
+/* footer */
+
+footer{
+    margin-top: -80px;    
+    border: solid rgb(255, 255, 255);
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+footer .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+footer .container ul .redes-sociais img{
+    width: 64px;
+    height: 64px;
+}
+footer .container ul .level{
+    font-size: 2.2rem;
+    margin: 10px;
+}
+footer .container ul p{
+    margin: 10px;
+    font-size: 1.4rem;
+
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+footer .container ul{
+    margin: 10px;
+}
+footer .container ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ea8845;
+}
+footer .container ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+footer .container ul h3{
+    font-size: 1.5rem;
 }
