@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header .container{
+
+header .container {
     /* border: solid; */
     display: flex;
     align-items: center;
@@ -11,39 +12,44 @@ header .container{
 }
 
 
-.container nav{
+.container nav {
     /* border: solid; */
     width: 800px;
 }
-.container nav ul{
+
+.container nav ul {
     display: flex;
     justify-content: space-around;
-    list-style: none ;
+    list-style: none;
     font-size: 25px;
-    
+
 }
-.container nav ul li a{
+
+.container nav ul li a {
     text-decoration: none;
     font-family: sans-serif;
-    color: beige    ;
+    color: beige;
 
 }
 
-.container nav ul li a:hover{
+.container nav ul li a:hover {
     color: #93d8ef;
     transition: 0.5s;
 }
-.container .logo{
+
+.container .logo {
     /* border: solid; */
     height: 200px;
     width: 200px;
 }
-.container .login{
+
+.container .login {
     width: 20%;
 
 }
-.container .login button{
-    border:none;    
+
+.container .login button {
+    border: none;
     border-radius: 5px;
     background-color: #ea8845;
     margin-left: 120px;
@@ -52,216 +58,365 @@ header .container{
     text-transform: none;
     color: white;
     font-weight: 800;
-    
+
 }
-.container .login button:hover{
+
+.container .login button:hover {
     background-color: #ecdfd6;
     transition: 05s;
 }
-.container .logo img{
+
+.container .logo img {
     height: 100%;
     width: 100%;
 }
+
 /*MAIN CONTAINER*/
-main .container{
+main .container {
     display: flex;
+    flex-direction: column;
 }
+
 /*MAIN-TEXT*/
-main .container .main-text{
+main .container .main-text {
     width: 40%;
     padding: 10px 60px;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
 
 /*MAIN-BANNER*/
-main .container .main-banner{
+main .container .main-banner {
     width: 60%;
     display: flex;
     justify-content: center;
 }
 
-body{
+body {
     background-color: rgb(25, 0, 135);
 }
-.main-banner img{
+
+.main-banner img {
     width: 50%;
 }
-.main-text h1{
+
+.main-text h1 {
     font-size: 40px;
     color: rgb(255, 255, 255);
 }
-.main-text p{
+
+.main-text p {
     font-size: 25px;
     color: white;
 }
-.main-text button{
+
+.main-text button {
     padding: 2%;
     border-radius: 10px;
     border: none;
     margin: 10px;
-    text-transform: uppercase   ;
+    text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-weight: 800;
-    
+
 }
-.main-text span{
+
+.main-text span {
     color: #93d8ef;
 }
-.btnVermelho{
+
+.btnVermelho {
     background-color: red;
     box-shadow: rgba(255, 0, 0, 0.411) 0px 14px 28px, rgba(255, 0, 0, 0.151) 0px 10px 10px;
 }
-.btnAzul{
+
+.btnAzul {
     background-color: rgb(67, 189, 229);
     box-shadow: rgba(67, 189, 229, 0.479) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+
 /* cards */
-.card  {
-    
+.card {
+
     background-color: white;
     width: 320px;
-    font-family: sans-serif ;
+    font-family: sans-serif;
     border-radius: 10px;
     margin-left: 25px;
     box-shadow: rgb(2, 100, 128) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.card-img{
+
+.card-img {
     background-image: url("../img/computador.jpg");
     height: 150px;
     width: 320px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover  ;
+    background-size: cover;
     border-radius: 10px;
 }
-.second{
+
+.second {
     background-image: url(../img/celular.jpg);
 }
-.third{
+
+.third {
     background-image: url(../img/foneG.jpg);
     background-size: 50%;
 }
-.four{
+
+.four {
     background-image: url(../img/MouseG.jpg);
     background-size: 70%;
 }
-.five{
+
+.five {
     background-image: url(../img/Monitor.jpg);
     background-size: 70%;
 }
-.six{
+
+.six {
     background-image: url(../img/TecladoG.png);
     background-size: 70%;
 }
-.card-text{
+
+.card-text {
     padding: 5px;
 }
-.card-text h2{
+
+.card-text h2 {
     font-size: 27px;
     margin-bottom: 15px;
     margin-left: 5px;
 }
-.card-text p{
+
+.card-text p {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.card-text a{
+
+.card-text a {
     font-size: 20px;
     color: rgb(10, 0, 150);
     text-decoration: none;
     font-weight: 800;
 }
-.cards{
+
+.cards {
     display: flex;
     flex-wrap: wrap;
     gap: 80px;
     justify-content: baseline;
     margin-top: 4%;
-    
+
 }
-.card:hover{
-    transform: translateY(-5px);    
+
+.card:hover {
+    transform: translateY(-5px);
     transition: 0.3s;
 }
+
 /*qualiadades*/
-.qualidades{
+.qualidades {
     width: 100%;
     height: 100%;
     font-family: sans-serif;
     background-color: #ea8845;
     margin-top: 4%;
-    
+
 }
-.qualidades .container{
+
+.qualidades .container {
     padding: 5%;
     display: flex;
     justify-content: space-around;
-    
+
 
 }
-.qualidades .container div{
+
+.qualidades .container div {
     display: flex;
     justify-content: center;
 
 }
-.qualidades .container div p{
+
+.qualidades .container div p {
     font-size: 1.5rem;
 
 }
-.meuSpan{
+
+.meuSpan {
     font-size: 35px;
     font-weight: 700;
     color: white;
 
 }
+
 /* footer */
 
-footer{
-    margin-top: -80px;    
-    border: solid rgb(255, 255, 255);
+footer {
+    margin-top: -80px;
+    /* border: solid rgb(255, 255, 255); */
     background-color: white;
     width: 100%;
     height: 100%;
     font-family: sans-serif;
 }
-footer .container{
+
+footer .container {
     display: flex;
     justify-content: space-around;
     padding: 1%;
 }
-footer .container ul .redes-sociais img{
+
+footer .container ul .redes-sociais img {
     width: 64px;
     height: 64px;
 }
-footer .container ul .level{
+
+footer .container ul .level {
     font-size: 2.2rem;
     margin: 10px;
 }
-footer .container ul p{
+
+footer .container ul p {
     margin: 10px;
     font-size: 1.4rem;
 
 }
-.redes-sociais{
+
+.redes-sociais {
     display: flex;
     justify-content: space-around;
     margin: 10px;
 }
-footer .container ul{
+
+footer .container ul {
     margin: 10px;
 }
-footer .container ul li a{
+
+footer .container ul li a {
     font-size: 1.2rem;
     text-decoration: none;
     color: #ea8845;
 }
-footer .container ul li{
+
+footer .container ul li {
     list-style: none;
     margin: 10px 0;
 }
-footer .container ul h3{
+
+footer .container ul h3 {
     font-size: 1.5rem;
+}
+
+/*responsividade*/
+.menu_icon {
+    display: none;
+
+}
+
+@media(max-width: 840px) {
+
+    .menu_icon {
+        display: flex;
+        z-index: 10;
+        width: 30%;
+        justify-content: flex-end;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -520%;
+        transition: 2s;
+        background-color: #93d8ef;
+        height: 100vh;
+
+
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        margin-left: 5%;
+        gap: 5px;
+        justify-content: center;
+        height: 50%;
+    }
+
+    .nav.ativo {
+        right: 0;
+        transition: 0.7s;
+    }
+
+    .container {
+        border: solid;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .login {
+        display: none;
+    }
+
+    main .container .main-text {
+        margin: 0;
+        width: 80%;
+        border: solid;
+        gap: 40px;
+
+
+    }
+
+    .main-text h1 {
+        font-size: 1.9rem;
+    }
+
+    .main-text p {
+        font-size: 1.4rem;
+    }
+
+    main .container .main-banner {
+        width: 90%;
+    }
+
+    section {
+        flex-direction: column;
+        padding: 0 200px;
+    }
+
+    section .card{
+        width: 100%;
+    }
+
+    .qualidades{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        border: none;
+    }
+    .qualidades .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        border: none;
+    
+    }
+    .qualidades .container div{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    footer .container{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    footer{
+        border: none;
+    }
 }
